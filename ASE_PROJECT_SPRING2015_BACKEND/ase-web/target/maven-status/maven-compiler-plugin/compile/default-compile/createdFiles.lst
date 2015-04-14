@@ -1,0 +1,8 @@
+com\ase\api\aop\TransactionAspect.class
+com\ase\api\service\rest\implementation\OrderServiceImpl.class
+com\ase\api\service\rest\implementation\CatalogServiceImpl.class
+com\ase\api\aop\MyTransaction.class
+com\ase\api\aop\MyThreadLocal.class
+com\ase\api\security\SecurityFilter.class
+com\ase\api\service\rest\implementation\LoginServiceImpl.class
+com\ase\api\aop\CurrentUser.class

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/asedb1_0?useLegacyDatetimeCode=false
+        </property>
+        <property name="connection.username">ase</property>
+        <property name="connection.password">ase123</property>
+
+        <!-- BonceCP connection pool -->
+        <property name="hibernate.connection.provider_class">com.jolbox.bonecp.provider.BoneCPConnectionProvider
+        </property>
+        <property name="bonecp.connectionTestStatement">/*ping*/select 1</property>
+        <property name="bonecp.setIdleMaxAgeInMinutes">60</property>
+        <property name="bonecp.setIdleConnectionTestPeriodInMinutes">5</property>
+        <property name="bonecp.partitionCount">3</property>
+        <property name="bonecp.acquireIncrement">2</property>
+        <property name="bonecp.maxConnectionsPerPartition">5</property>
+        <property name="bonecp.minConnectionsPerPartition">2</property>
+        <property name="bonecp.statementsCacheSize">50</property>
+        <property name="bonecp.releaseHelperThreads">3</property>
+
+
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Disable the second-level cache -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <!-- <property styleName="hbm2ddl.auto">update</property> -->
+        <mapping class="com.ase.domain.Category"/>
+        <mapping class="com.ase.domain.Employee"/>
+        <mapping class="com.ase.domain.Item"/>
+        <mapping class="com.ase.domain.ItemLocation"/>
+        <mapping class="com.ase.domain.ItemLocationMapping"/>
+        <mapping class="com.ase.domain.Job"/>
+        <mapping class="com.ase.domain.OrderItem"/>
+        <mapping class="com.ase.domain.Restaurant"/>
+        <mapping class="com.ase.domain.RestaurantSubCategoryMapping"/>
+        <mapping class="com.ase.domain.SaleOrder"/>
+        <mapping class="com.ase.domain.SubCategory"/>
+        <mapping class="com.ase.domain.User"/>
+    </session-factory>
+
+</hibernate-configuration>

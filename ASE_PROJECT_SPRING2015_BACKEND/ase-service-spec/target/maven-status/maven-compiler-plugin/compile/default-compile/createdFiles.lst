@@ -1,0 +1,17 @@
+com\ase\bean\list\OrderBeanList.class
+com\ase\bean\RegisterBean.class
+com\ase\api\service\CatalogService.class
+com\ase\bean\SubCategoryBean.class
+com\ase\bean\OrderBean.class
+com\ase\api\service\LoginService.class
+com\ase\bean\CategoryBean.class
+com\ase\bean\SaleOrderBean.class
+com\ase\bean\list\CategoryBeanList.class
+com\ase\bean\SuperDTO.class
+com\ase\bean\UserBean.class
+com\ase\api\service\OrderService.class
+com\ase\bean\ItemBean.class
+com\ase\bean\list\SubCategoryBeanList.class
+com\ase\bean\list\ItemBeanList.class
+com\ase\bean\BaseBean.class
+com\ase\bean\list\SaleOrderBeanList.class

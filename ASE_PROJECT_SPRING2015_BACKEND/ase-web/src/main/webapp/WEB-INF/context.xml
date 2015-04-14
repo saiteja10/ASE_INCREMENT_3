@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+        http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+    <!-- REST -->
+    <import resource="classpath:META-INF/cxf/cxf.xml"/>
+    <aop:aspectj-autoproxy />
+    <context:annotation-config/>
+    <context:component-scan
+            base-package="com.ase.api, com.ase.handler, com.ase.dao"/>
+
+    <!-- PROVIDERS -->
+    <bean id="wadlProvider" class="org.apache.cxf.jaxrs.model.wadl.WadlGenerator">
+        <property name="applicationTitle" value="ASE Web Services"/>
+        <property name="linkJsonToXmlSchema" value="true"/>
+    </bean>
+
+    <bean id="jaxbProvider" class="org.apache.cxf.jaxrs.provider.JAXBElementProvider">
+        <property name="marshallerProperties" ref="propertiesMap"/>
+    </bean>
+
+    <bean id="jacksonJsonProvider" class="org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider"/>
+
+    <util:map id="propertiesMap">
+        <entry key="jaxb.formatted.output">
+            <value type="java.lang.Boolean">true</value>
+        </entry>
+    </util:map>
+
+    <!-- REST SERVER -->
+    <jaxrs:server id="login" address="/login">
+        <jaxrs:providers>
+            <ref bean="jacksonJsonProvider"/>
+            <ref bean="wadlProvider"/>
+        </jaxrs:providers>
+        <jaxrs:serviceBeans>
+            <bean class="com.ase.api.service.rest.implementation.LoginServiceImpl"/>
+        </jaxrs:serviceBeans>
+    </jaxrs:server>
+    <jaxrs:server id="catalog" address="/catalog">
+        <jaxrs:providers>
+            <ref bean="jacksonJsonProvider"/>
+            <ref bean="wadlProvider"/>
+        </jaxrs:providers>
+        <jaxrs:serviceBeans>
+            <bean class="com.ase.api.service.rest.implementation.CatalogServiceImpl"/>
+        </jaxrs:serviceBeans>
+    </jaxrs:server>
+    <jaxrs:server id="order" address="/order">
+        <jaxrs:providers>
+            <ref bean="jacksonJsonProvider"/>
+            <ref bean="wadlProvider"/>
+        </jaxrs:providers>
+        <jaxrs:serviceBeans>
+            <bean class="com.ase.api.service.rest.implementation.OrderServiceImpl"/>
+        </jaxrs:serviceBeans>
+    </jaxrs:server>
+</beans>
