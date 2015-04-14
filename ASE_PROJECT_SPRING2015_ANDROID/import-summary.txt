@@ -1,0 +1,84 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\inspectionProfiles\
+* .idea\inspectionProfiles\Project_Default.xml
+* .idea\inspectionProfiles\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* ASE_PROJECT_SPRING2015_ANDROID.iml
+* README.md
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\ASE_PROJECT_SPRING2015_ANDROID.apk
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\ASE_PROJECT_SPRING2015_ANDROID.unaligned.apk
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\AdminDashboard.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\BuildConfig.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\Dashboard.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\EmployeeDashboard.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\LoginActivity$1.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\LoginActivity.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\R$attr.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\R$drawable.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\R$id.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\R$layout.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\R$string.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\R.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\RegisterActivity.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\SettingActivity.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\request\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\request\BaseRequest$BalanceProgressTask.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\request\BaseRequest.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\request\JsonHandler.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\request\LoginRequest.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\request\RegisterRequest.class
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\util\
+* out\production\ASE_PROJECT_SPRING2015_ANDROID\com\example\FrontEnd_PG4\util\Property.class
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
