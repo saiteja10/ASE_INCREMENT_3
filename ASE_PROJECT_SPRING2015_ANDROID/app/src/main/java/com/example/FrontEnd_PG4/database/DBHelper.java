@@ -12,7 +12,7 @@ import com.example.FrontEnd_PG4.beans.CategoryList;
 import java.util.List;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 public class DBHelper extends SQLiteOpenHelper {
     public static final int DATABASE_VERSION = 1;

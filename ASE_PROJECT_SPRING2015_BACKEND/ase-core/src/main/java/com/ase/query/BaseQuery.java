@@ -3,7 +3,7 @@ package com.ase.query;
 /**
  * 12/4/11 1:41 PM
  *
- * @author siddhartha
+ * @author sai
  */
 public class BaseQuery {
     protected Integer start;

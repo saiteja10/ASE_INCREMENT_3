@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import javax.inject.Inject;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 @Service
 public class CatalogServiceImpl implements CatalogService {

@@ -11,7 +11,7 @@ import org.apache.http.client.methods.HttpRequestBase;
 import java.util.List;
 
 /**
- * Created by Gurrala on 4/6/2015.
+ * Created by sai on 4/6/2015.
  */
 public class PlaceOrderRequest extends BaseRequest {
     private Property property;

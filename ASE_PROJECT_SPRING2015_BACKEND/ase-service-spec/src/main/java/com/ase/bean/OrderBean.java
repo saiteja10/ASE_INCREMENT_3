@@ -3,7 +3,7 @@ package com.ase.bean;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * Created by Gurrala on 4/5/2015.
+ * Created by sai on 4/5/2015.
  */
 @XmlRootElement(namespace = "ase")
 public class OrderBean extends BaseBean {

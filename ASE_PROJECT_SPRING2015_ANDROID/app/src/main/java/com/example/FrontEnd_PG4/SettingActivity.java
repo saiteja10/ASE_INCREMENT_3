@@ -8,7 +8,7 @@ import android.widget.Toast;
 import com.example.FrontEnd_PG4.util.Property;
 
 /**
- * Created by Gurrala on 2/24/2015.
+ * Created by sai on 2/24/2015.
  */
 public class SettingActivity extends Activity {
     private Property property;

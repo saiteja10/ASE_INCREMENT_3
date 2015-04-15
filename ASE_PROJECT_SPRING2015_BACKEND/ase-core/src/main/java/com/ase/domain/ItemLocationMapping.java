@@ -3,7 +3,7 @@ package com.ase.domain;
 import javax.persistence.*;
 
 /**
- * Created by Gurrala on 2/22/2015.
+ * Created by sai on 2/22/2015.
  */
 @Entity
 @Table(name = "item_location_mapping")

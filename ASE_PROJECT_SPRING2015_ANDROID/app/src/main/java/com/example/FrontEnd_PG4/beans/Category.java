@@ -1,7 +1,7 @@
 package com.example.FrontEnd_PG4.beans;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 public class Category {
     private String name;

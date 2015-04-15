@@ -3,7 +3,7 @@ package com.ase.domain;
 import javax.persistence.*;
 
 /**
- * Created by Gurrala on 4/5/2015.
+ * Created by sai on 4/5/2015.
  */
 @Entity
 @Table(name = "job")

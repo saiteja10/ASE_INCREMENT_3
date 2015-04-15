@@ -8,7 +8,7 @@ import java.io.File;
 /**
  * This class will help generate the sql statements to update the DB.
  *
- * @author siddhartha
+ * @author sai
  */
 
 public class SchemaUpdater {

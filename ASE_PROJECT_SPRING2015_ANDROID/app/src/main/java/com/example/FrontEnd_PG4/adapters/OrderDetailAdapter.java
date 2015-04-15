@@ -15,7 +15,7 @@ import com.example.FrontEnd_PG4.beans.Category;
 import java.util.List;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 public class OrderDetailAdapter extends BaseAdapter {
     private List<Category> categories;

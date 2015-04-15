@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 public class CategoryAdapter extends BaseAdapter implements Filterable {
     private List<Category> categories;

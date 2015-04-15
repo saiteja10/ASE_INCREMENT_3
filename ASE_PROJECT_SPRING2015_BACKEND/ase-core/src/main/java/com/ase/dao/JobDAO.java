@@ -5,7 +5,7 @@ import com.ase.query.JobQuery;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by Gurrala on 4/5/2015.
+ * Created by sai on 4/5/2015.
  */
 @Component
 public class JobDAO extends BaseDAO<Job, JobQuery> {

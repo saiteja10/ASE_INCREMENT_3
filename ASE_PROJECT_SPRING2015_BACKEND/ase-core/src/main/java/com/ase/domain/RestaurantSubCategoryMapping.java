@@ -3,7 +3,7 @@ package com.ase.domain;
 import javax.persistence.*;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 @Entity
 @Table(name = "restaurant_subcategory")

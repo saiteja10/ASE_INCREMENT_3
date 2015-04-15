@@ -5,7 +5,7 @@ import com.ase.query.CategoryQuery;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 @Component
 public class CategoryDAO extends BaseDAO<Category, CategoryQuery> {

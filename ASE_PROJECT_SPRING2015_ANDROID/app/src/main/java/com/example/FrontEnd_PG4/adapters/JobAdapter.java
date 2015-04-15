@@ -13,7 +13,7 @@ import com.example.FrontEnd_PG4.beans.JobBean;
 import java.util.List;
 
 /**
- * Created by Gurrala on 4/6/2015.
+ * Created by sai on 4/6/2015.
  */
 public class JobAdapter extends BaseAdapter {
     private List<JobBean> jobBeans;

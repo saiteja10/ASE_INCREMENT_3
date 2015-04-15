@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 @XmlRootElement(namespace = "ase")
 public class SubCategoryBean extends BaseBean {

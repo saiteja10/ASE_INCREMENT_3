@@ -1,7 +1,7 @@
 package com.ase.domain;
 
 /**
- * Created by Gurrala on 4/5/2015.
+ * Created by sai on 4/5/2015.
  */
 public enum OrderStatus {
     ACCEPTED(0), PLACED(1), DELIVERED(2), REJECTED(3), RETURNED(4);

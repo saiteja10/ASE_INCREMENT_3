@@ -2,7 +2,7 @@ package com.example.FrontEnd_PG4.beans;
 
 
 /**
- * Created by Gurrala on 4/5/2015.
+ * Created by sai on 4/5/2015.
  */
 public class JobBean {
     private Double totalAmount;

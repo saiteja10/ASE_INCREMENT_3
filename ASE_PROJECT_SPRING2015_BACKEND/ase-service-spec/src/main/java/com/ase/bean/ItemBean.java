@@ -3,7 +3,7 @@ package com.ase.bean;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * Created by Gurrala on 3/16/2015.
+ * Created by sai on 3/16/2015.
  */
 @XmlRootElement(namespace = "ase")
 public class ItemBean extends BaseBean {

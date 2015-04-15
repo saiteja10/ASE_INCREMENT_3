@@ -8,7 +8,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpRequestBase;
 
 /**
- * Created by Gurrala on 4/6/2015.
+ * Created by sai on 4/6/2015.
  */
 public class AcceptOrderRequest extends BaseRequest {
     private Property property;

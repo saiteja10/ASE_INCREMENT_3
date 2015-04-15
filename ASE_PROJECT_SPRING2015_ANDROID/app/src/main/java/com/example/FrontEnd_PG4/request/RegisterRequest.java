@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Gurrala on 2/25/2015.
+ * Created by sai on 2/25/2015.
  */
 public class RegisterRequest extends BaseRequest {
     private String firstName, lastName, email, password;
