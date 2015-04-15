@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.example.FrontEnd_PG4.R;
 
 /**
- * Created by Gurrala on 4/5/2015.
+ * Created by sai on 4/5/2015.
  */
 public class CustomView {
     public static View setImageText(Context context, ActionBar actionBar, int count){
